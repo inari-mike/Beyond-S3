@@ -1,0 +1,89 @@
+<gamestate>
+	<entity id="0">
+		<type>map</type>
+		<width>60</width>
+		<height>40</height>
+		<background>
+			<row>wwwwt.t....ttttttttwwwwwwwwwwwwwwwwwwwtttttttttwwwwwwwwwwwww</row>
+			<row>wwwwt.............tttttwwwttttttttttttt.......wtwwwwwwwwwwww</row>
+			<row>wwwwt.................ttttt..................t.twwwwwwwwwwww</row>
+			<row>wwttt..........................................twwwwwwwwwwww</row>
+			<row>wwt.....ttttttt...........................tt...twwwwwwwwwwww</row>
+			<row>wwt.....twwwwwtttt............tttttttttttttt...twwwwwwwwwwww</row>
+			<row>wwt.....twwwwtt..........ttttttwwwwwwwwwwwwt...twwwwwwwwwwww</row>
+			<row>wwt...tttwtttt..........ttwwwwwwwwwwwwwwwwwt...twwwwwwwwwwww</row>
+			<row>ttt...twwtt.............twwwwwwwwwwwwwwwwwwt...twwwwwwwwwwww</row>
+			<row>t.....tttt........t.....twwwwwwwwwwwwwwwwwwt...ttttwwwwwwwww</row>
+			<row>t.....t..........tt...tttwwwwwwwwwwwwttttttt.....ttttttttwww</row>
+			<row>t.............ttttt...twwwwwwwwwwwwwwt..................twww</row>
+			<row>t............ttwt.....twwwwwwwwwwwwwwt..................twww</row>
+			<row>..........ttttwwt.....twwwwwwwwwwwwwwt..................twww</row>
+			<row>.........tttttttt.....twwwwwwwwwwwwwwt..................twww</row>
+			<row>.......tttttttttt...tttwwwwwwwwwwwwwwt..................ttww</row>
+			<row>....................ttttttttttttwwwwwt..................ttww</row>
+			<row>...............................ttttttt..................tttw</row>
+			<row>........................................................tttw</row>
+			<row>........ttttttt.........................................tttw</row>
+			<row>ttt......tttttt.........tttt............................tttw</row>
+			<row>wtt........tt...........twwtttttttttttttt...............tttw</row>
+			<row>wtttt......tt...........ttwwwwwwwwwwtt..................tttw</row>
+			<row>wttttt..................ttwwwwwwwtttt...................tttw</row>
+			<row>wttttttt................ttwwwwwwtt..........t...........ttww</row>
+			<row>wtt.....................ttttwtttt........tttt...........ttww</row>
+			<row>ttt........................ttt..........ttttt...........twww</row>
+			<row>wtt..................................tttttttt...........twww</row>
+			<row>wtt.................................ttwtttttt...tttttttttwww</row>
+			<row>wtt............................t.ttttwwwttttt...tttttttwwwww</row>
+			<row>wtt.........................ttttttwwwwwwwwttt...tttttwwwwwww</row>
+			<row>wtt................t............tttwwwwwwwwwt...tttwwwwwwwww</row>
+			<row>wwt................ttttt..........ttttwwwwwwt...twwwwwwwwwww</row>
+			<row>wwt................tttttt............tttwwwwt...twwwwwwwwwww</row>
+			<row>wwttttttttt........tttttttttt..........ttttwt...twwwwwwwwwww</row>
+			<row>wwwwttttttt........ttttwwwwwttt...........ttt...twwwwwwwwwww</row>
+			<row>wwwwwtttttt........tttwwwwwwwwtttt..........t...twwwwwwwwwww</row>
+			<row>wwwwwwwtttt........twwwwwwwwwwwwwttt............twwwwwwwwwww</row>
+			<row>wwwwwwwwwtttttttttttwwwwwwwwwwwwwwwtttt.........twwwwwwwwwww</row>
+			<row>wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwttt.......twwwwwwwwwww</row>
+		</background>
+	</entity>
+	<entity id="1">
+		<type>WPlayer</type>
+		<gold>2000</gold>
+		<wood>1500</wood>
+		<owner>player1</owner>
+	</entity>
+	<entity id="2">
+		<type>WPlayer</type>
+		<gold>2000</gold>
+		<wood>1500</wood>
+		<owner>player2</owner>
+	</entity>
+	<entity id="3">
+		<type>WPeasant</type>
+		<x>13</x>
+		<y>26</y>
+		<owner>player1</owner>
+		<current_hitpoints>30</current_hitpoints>
+	</entity>
+	<entity id="4">
+		<type>WPeasant</type>
+		<x>47</x>
+		<y>20</y>
+		<owner>player2</owner>
+		<current_hitpoints>30</current_hitpoints>
+	</entity>
+	<entity id="5">
+		<type>WGoldMine</type>
+		<x>17</x>
+		<y>19</y>
+		<remaining_gold>50000</remaining_gold>
+		<current_hitpoints>25500</current_hitpoints>
+	</entity>
+	<entity id="6">
+		<type>WGoldMine</type>
+		<x>39</x>
+		<y>12</y>
+		<remaining_gold>50000</remaining_gold>
+		<current_hitpoints>25500</current_hitpoints>
+	</entity>
+</gamestate>
